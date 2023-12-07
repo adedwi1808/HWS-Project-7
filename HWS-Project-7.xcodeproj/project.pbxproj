@@ -13,6 +13,9 @@
 		AD3E1DA92B203C5E002F87DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3E1DA72B203C5E002F87DD /* Main.storyboard */; };
 		AD3E1DAB2B203C60002F87DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3E1DAA2B203C60002F87DD /* Assets.xcassets */; };
 		AD3E1DAE2B203C60002F87DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3E1DAC2B203C60002F87DD /* LaunchScreen.storyboard */; };
+		AD3E1DB62B20B452002F87DD /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3E1DB52B20B452002F87DD /* Petition.swift */; };
+		AD3E1DB82B20B4BE002F87DD /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3E1DB72B20B4BE002F87DD /* Petitions.swift */; };
+		AD6E0A332B2216F1007800EE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E0A322B2216F1007800EE /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AD3E1DAA2B203C60002F87DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD3E1DAD2B203C60002F87DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD3E1DAF2B203C60002F87DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3E1DB52B20B452002F87DD /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		AD3E1DB72B20B4BE002F87DD /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		AD6E0A322B2216F1007800EE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,12 @@
 				AD3E1DA32B203C5E002F87DD /* SceneDelegate.swift */,
 				AD3E1DA52B203C5E002F87DD /* ViewController.swift */,
 				AD3E1DA72B203C5E002F87DD /* Main.storyboard */,
+				AD6E0A322B2216F1007800EE /* DetailViewController.swift */,
 				AD3E1DAA2B203C60002F87DD /* Assets.xcassets */,
 				AD3E1DAC2B203C60002F87DD /* LaunchScreen.storyboard */,
 				AD3E1DAF2B203C60002F87DD /* Info.plist */,
+				AD3E1DB52B20B452002F87DD /* Petition.swift */,
+				AD3E1DB72B20B4BE002F87DD /* Petitions.swift */,
 			);
 			path = "HWS-Project-7";
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD3E1DA62B203C5E002F87DD /* ViewController.swift in Sources */,
+				AD3E1DB62B20B452002F87DD /* Petition.swift in Sources */,
 				AD3E1DA22B203C5E002F87DD /* AppDelegate.swift in Sources */,
+				AD6E0A332B2216F1007800EE /* DetailViewController.swift in Sources */,
 				AD3E1DA42B203C5E002F87DD /* SceneDelegate.swift in Sources */,
+				AD3E1DB82B20B4BE002F87DD /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
